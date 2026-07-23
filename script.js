@@ -21,3 +21,5 @@ window.addEventListener("resize", () => {
         nav.classList.remove("active");
     }
 });
+
+document.getElementById('currentYear').textContent = new Date().getFullYear();

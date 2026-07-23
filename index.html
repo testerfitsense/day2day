@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Boilerplate</title>
+    <title>Day to Day Electrical & Heating</title>
 
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
@@ -13,7 +13,8 @@
 <header>
     <div class="heaader-container">
         <a href="#" class="logo">
-            <img src="./logo.png" alt="Company Name" />
+            Day to Day
+            <span>electrical & heating</span>
         </a>
 
         <nav class="nav">
@@ -23,6 +24,7 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
+        <input type="checkbox" id="menu-toggle" class="menu-checkbox">
 
         <button class="hamburger" aria-label="Toggle navigation">
             <span></span>
@@ -30,14 +32,33 @@
             <span></span>
         </button>
 
+
+
+       <!-- <nav class="navbar">
+  
+            <label for="menu-toggle" class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+
+            <ul class="nav-menu">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav> -->
     </div>
 </header>
 
 <section class="section main">
-    <div class="grid one">
+    <div class="grid">
         <div class="main-title">
             <div class="heading">Home Electrical</div>
-            <div class="heading">& Plumbing Repairs</div>
+            <div class="heading">
+                <span>& Plumbing </span>
+                Repairs
+            </div>
         </div>
         <div class="sub-title">
             Dependable service with prompt response time, honest pricing, and no surprises from start to finish.
@@ -49,46 +70,94 @@
     </div>
 </section>
 
-<div class="divider"></div>
-
-<section class="section secondary">
-    <div class="sub-heading">services</div>
-
-    <div class="card-container">
-        <div class="card electric">
-            <span class="icon">&#9889;</span>
-            <span class="card-heading">Electrical Repairs</span>
-            <span class="body">Outlets, switches, breakers, and wiring fixed right.</span>
+<section class="section mini">
+    <div class="grid">
+        <div class="mini-container">
+            <span class="icon">&#x1FAAA;</span>
+            <div>
+                <p class="heading">Licensed & Insured</p>
+                <p class="copy">UK certified</p>
+            </div>
         </div>
-        <div class="card panel">
-            <span class="icon">&#128268;</span>
-            <span class="card-heading">Panel Upgrades</span>
-            <span class="body">Safe, code-compliant electrical panel replacements.</span>
+        <div class="mini-container">
+            <span class="icon">&#x1F4AC;</span>
+            <div>
+                <p class="heading">Upfront Pricing</p>
+                <p class="copy">No hidden fees</p>
+            </div>
         </div>
-        <div class="card leak">
-            <span class="icon">&#x1F4A7;</span>
-            <span class="card-heading">Leak Repair</span>
-            <span class="body">Pipes, faucets, and fixtures — no more drips.</span>
+        <div class="mini-container">
+            <span class="icon">&#x23F1;</span>
+            <div>
+                <p class="heading">Same-Day Service</p>
+                <p class="copy">Most calls</p>
+            </div>
         </div>
-    </div>
-    <div class="card-container">
-        <div class="card drain">
-            <span class="icon">&#x1F6BF;</span>
-            <span class="card-heading">Drain Cleaning</span>
-            <span class="body">Stubborn clogs cleared, kitchen or bathroom.</span>
-        </div>
-        <div class="card heater">
-            <span class="icon">&#x1F525;</span>
-            <span class="card-heading">Water Heaters</span>
-            <span class="body">Install, repair, or replace any make or model.</span>
-        </div>
-        <div class="card emergency">
-            <span class="icon">&#x1F6A8;</span>
-            <span class="card-heading">24/7 Emergency</span>
-            <span class="body">Burst pipe or dead power? We come fast.</span>
+        <div class="mini-container">
+            <span class="icon">&#x1F3E1;</span>
+            <div>
+                <p class="heading">Local & Family-Owned</p>
+                <p class="copy">West Midlands</p>
+            </div>
         </div>
     </div>
 </section>
+
+
+<section class="section secondary">
+    <div class="grid">
+        <div class="sub-heading-container">
+            <div class="sub-heading">our services</div>
+            <div class="divider"></div>
+        </div>
+        <div class="card-container">
+            <div class="card electric">
+                <span class="icon">&#9889;</span>
+                <span class="card-heading">Electrical Repairs</span>
+                <span class="body">Outlets, switches, breakers, and wiring fixed right.</span>
+            </div>
+            <div class="card panel">
+                <span class="icon">&#128268;</span>
+                <span class="card-heading">Panel Upgrades</span>
+                <span class="body">Safe, code-compliant electrical panel replacements.</span>
+            </div>
+            <div class="card leak">
+                <span class="icon">&#x1F4A7;</span>
+                <span class="card-heading">Leak Repair</span>
+                <span class="body">Pipes, faucets, and fixtures — no more drips.</span>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card drain">
+                <span class="icon">&#x1F6BF;</span>
+                <span class="card-heading">Drain Cleaning</span>
+                <span class="body">Stubborn clogs cleared, kitchen or bathroom.</span>
+            </div>
+            <div class="card heater">
+                <span class="icon">&#x1F525;</span>
+                <span class="card-heading">Water Heaters</span>
+                <span class="body">Install, repair or replace any make or model.</span>
+            </div>
+            <div class="card emergency">
+                <span class="icon">&#x1F6A8;</span>
+                <span class="card-heading">24/7 Emergency</span>
+                <span class="body">Burst pipe or dead power? We come fast.</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="grid">
+        <div class="copyright">
+            Day to Day <p>Electrical & Heating</p>
+        </div>
+
+        <div class="copyright">
+            &#x00A9; <span id="currentYear"></span> DaytoDay LLC
+        </div>
+    </div>
+</footer>
 
 <script src="script.js"></script>
 
