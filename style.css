@@ -121,6 +121,10 @@ header{
 .grid {
     max-width: 1220px;
     margin: 0px auto;
+
+    &.short {
+        max-width: 1100px;
+    }
 }
 
 .section.main {
@@ -240,9 +244,11 @@ header{
     }
 
     .icon {
-        font-size: 22px;
         display: flex;
+        font-size: 22px;
+        flex: 0 0 56px;
         align-items: center;
+        justify-content: center;
     }
 
     p {
@@ -340,30 +346,23 @@ header{
     }
 
     .nav-links a{
-
         display:block;
-
         padding:20px;
     }
 
     .hamburger{
-
         display:flex;
     }
 
-
     .hamburger.active span:nth-child(1){
-
         transform:rotate(45deg) translateY(11px);
     }
 
     .hamburger.active span:nth-child(2){
-
         opacity:0;
     }
 
     .hamburger.active span:nth-child(3){
-
         transform:rotate(-45deg) translateY(-11px);
     }
 
